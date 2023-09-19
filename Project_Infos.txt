@@ -7,4 +7,4 @@ Border-Color: #eeedef;
 
 *** Google Font ***
 
-Font-Family: poppins;
+Font-Family: cairo;
