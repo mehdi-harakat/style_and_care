@@ -396,8 +396,6 @@ main .container table td {
 	padding-inline: 10px;
 	padding-block: 14px;
 	border-radius: 10px;
-	font-size: 10px;
-	/* min-width: 240px; */
 }
 
 @media (min-width: 992px) {
@@ -409,12 +407,10 @@ main .container table td {
 
 main .container table td:first-child {
 	text-align: left;
-	/* padding-left: 34px ; */
 }
 
 main .container table td:last-child {
 	text-align: right;
-	/* padding-right: 34px ; */
 }
 
 @media (max-width: 768px) {
@@ -424,6 +420,12 @@ main .container table td:last-child {
 
 	main .container table td:last-child {
 		padding-right: 14px;
+	}
+
+
+	main .container table th,
+	main .container table td {
+		font-size: 10px;
 	}
 }
 
